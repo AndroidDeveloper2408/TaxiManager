@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ru.startandroid1.taximanager.activities.MainPage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Manager Taxi"
+        android:id="@+id/tVMainPageInfo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log-in"
+        android:id="@+id/tVMainPageEnter"
+        android:onClick="onClickEnter"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="78dp"
+        android:layout_below="@+id/tVMainPageInfo"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/tVMainPageReg"
+        android:onClick="onClickReg"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="51dp"
+        android:layout_below="@+id/tVMainPageEnter"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Panel"
+        android:id="@+id/tVMainPageAdmin"
+        android:onClick="onClickAdmin"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/tVMainPageReg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp" />
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ru.startandroid1.taximanager.activities.RegActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Register"
+        android:id="@+id/tVRegReg"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/eTRegLog"
+        android:layout_marginTop="42dp"
+        android:hint="Enter login"
+        android:layout_below="@+id/tVRegReg"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/eTRegPass"
+        android:layout_marginTop="16dp"
+        android:hint="Enter pass"
+        android:layout_below="@+id/eTRegLog"
+        android:layout_alignStart="@+id/eTRegLog" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/eTRegName"
+        android:hint="Enter your name"
+        android:inputType="text"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/eTRegPass"
+        android:layout_alignStart="@+id/eTRegPass"
+        android:layout_alignEnd="@+id/eTRegPass" />
+
+    <EditText
+        android:id="@+id/eTRegPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/eTRegName"
+        android:layout_alignStart="@+id/eTRegName"
+        android:layout_below="@+id/eTRegName"
+        android:layout_marginTop="20dp"
+        android:hint="Enter your phone"
+        android:inputType="number|phone" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:id="@+id/btnRegReg"
+        android:layout_below="@+id/eTRegPhone"
+        android:layout_alignStart="@+id/eTRegPhone"
+        android:layout_marginTop="23dp"
+        android:layout_alignEnd="@+id/eTRegPhone" />
+
+</RelativeLayout>

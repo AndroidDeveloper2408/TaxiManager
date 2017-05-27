@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+    <item android:title="Profile">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="My Profile" />
+            <item
+                android:id="@+id/nav_manage_user"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Tools" />
+        </menu>
+    </item>
+    </group>
+    <item android:title="Requests">
+        <menu>
+            <item
+                android:id="@+id/nav_new_request"
+                android:icon="@drawable/ic_control_point_black_24dp"
+                android:title="Add Request" />
+            <item
+                android:id="@+id/nav_current_request"
+                android:icon="@drawable/ic_unfold_less_black_24dp"
+                android:title="Current Request" />
+            <item
+                android:id="@+id/nav_all_requests"
+                android:icon="@drawable/ic_clear_all_black_24dp"
+                android:title="All Requests" />
+        </menu>
+    </item>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share_user"
+                android:icon="@drawable/ic_comment_black_24dp"
+                android:title="Send Message" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_driver_profile"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_driver_tools"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+    <item android:title="Transporatations">
+        <menu>
+            <item
+                android:id="@+id/nav_new_transportations"
+                android:icon="@drawable/ic_priority_high_black_24dp"
+                android:title="New Transportations" />
+            <item
+                android:id="@+id/nav_current_transportation"
+                android:icon="@drawable/ic_rv_hookup_black_24dp"
+                android:title="Current Transportation" />
+            <item
+                android:id="@+id/nav_all_transportations"
+                android:icon="@drawable/ic_event_note_black_24dp"
+                android:title="All Transportations" />
+        </menu>
+    </item>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_send_message"
+                android:icon="@drawable/ic_sms_black_24dp"
+                android:title="Send Message" />
+        </menu>
+    </item>
+</menu>
